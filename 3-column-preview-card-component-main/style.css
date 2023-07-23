@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@500&family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@500&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 900px;
+    height: 450px;
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 95%)
+    ;
+
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.sedan {
+    background-color:  hsl(31, 77%, 52%);
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.sedan img {
+    display: flex;
+    padding: 2rem;
+}
+
+.title {
+    color: white;
+    margin-left: 2rem;
+
+
+
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.p-text {
+    width: 278;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    letter-spacing: 1px;
+    overflow: hidden;
+    padding: 2rem;
+    line-height: 20px;
+    font-style: normal;
+}
+
+.sedan button {
+    color: hsl(31, 77%, 52%);
+    border: none;
+    margin-left: 2rem;
+    width: 8rem;
+    padding: 14px;
+    border-radius: 20px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 32px;
+
+}
+
+.suvs button {
+    color: hsl(184, 100%, 22%);
+    border: none;
+    margin-left: 2rem;
+    width: 8rem;
+    padding: 14px;
+    border-radius: 20px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 14px; 
+    margin-top: 32px;
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+    border: none;
+    margin-left: 2rem;
+    width: 8rem;
+    padding: 14px;
+    border-radius: 20px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 32px;
+}
+
+@media (max-width:320px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
